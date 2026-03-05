@@ -2,8 +2,64 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font: roboto, sans-serif;
+    
 }
 html, body{
     height: 100%;
     font-family: 'Poppins', sans-serif;
+}
+.header{
+    display:flex;
+    padding:10px;
+    justify-content: space-around;
+    gap: 500px;
+   color: #fffefe;
+   background-color: #1F2937;
+    
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+img{
+    height: 200px;
+    width: 400px;
+    border-radius: 30px;
+}
+.container{
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #1F2937;
+    color: #fffefe;
+    
+}
+.text{
+    padding: 80px;
+    text-align: wrap;
+}
+.text h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+.text p{
+    margin-top: 10px;
+    font-weight: 200;
+}
+button{
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: solid #3882f6;
+    font-weight: 500;
+    color: #fffefe;
+}
+.img{
+    padding: 60px;
+    align-items: center;
+    justify-content: center;
 }
